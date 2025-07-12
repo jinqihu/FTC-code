@@ -13,22 +13,8 @@ This repository contains Java-based FTC SDK code designed for our robot for the 
 
 This project is built on top of the **FTC SDK** provided by REV Robotics and FIRST.
 
-## 📁 Repository Structure
-
-```plaintext
-TeamCode/
-├── Autonomous/         # All autonomous OpModes (Red/Blue, Cycle, Park, etc.)
-├── TeleOp/             # Manual driver control code
-├── Subsystems/         # Modular components like DriveTrain, Odometry, Intake, etc.
-├── Hardware/           # Robot hardware configuration
-├── Utilities/          # Helper classes and utilities (e.g. PID, trajectory, etc.)
-└── Robot.java          # Centralized robot control logic
-
-
 
 ## 🚀 GitHub Branching & Merging Rules
-
-
 
 A simple guide for maintaining clean and collaborative Git workflows.
 
@@ -81,3 +67,14 @@ A simple guide for maintaining clean and collaborative Git workflows.
   git fetch origin
   git rebase origin/main
 
+
+## 📁 Repository Structure
+
+```plaintext
+TeamCode/
+├── Autonomous/         # All autonomous OpModes (Red/Blue, Cycle, Park, etc.)
+├── TeleOp/             # Manual driver control code
+├── Subsystems/         # Modular components like DriveTrain, Odometry, Intake, etc.
+├── Hardware/           # Robot hardware configuration
+├── Utilities/          # Helper classes and utilities (e.g. PID, trajectory, etc.)
+└── Robot.java          # Centralized robot control logic
